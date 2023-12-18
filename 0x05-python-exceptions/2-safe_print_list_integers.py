@@ -1,4 +1,5 @@
 def safe_print_list_integers(my_list=[], x=0):
+
     """Print the first x elements of a list that are integers.
 
     Args:
@@ -17,4 +18,4 @@ def safe_print_list_integers(my_list=[], x=0):
         except (ValueError, TypeError):
             continue
     print("")  # Move this line outside the loop
-    return ret
+    return (ret)
