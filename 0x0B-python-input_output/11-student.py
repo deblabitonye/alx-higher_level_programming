@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+'''task 10 module'''
 
 class Student:
-    """Defines a student with first_name, last_name, and age."""
-
+    '''student class'''
     def __init__(self, first_name, last_name, age):
         """Instantiation with first_name, last_name, and age."""
         self.first_name = first_name
